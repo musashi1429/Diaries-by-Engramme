@@ -3,6 +3,9 @@ from class_emotion import Emotion
 import os
 from time import gmtime, strftime
 import json
+from engramme import Engramme
+from io import StringIO
+from json import dumps
 
 
 souvenir = Souvenir()
@@ -23,3 +26,10 @@ for element in liste_retour:
     fichier = open("save.json","a")
     fichier.write(json.dumps([element.emotion,element.date,element.info]))
     fichier.close()
+###
+save = Engramme()
+with open("save.json","r") as json_data:
+    print(type(json_data))
+    data_list = json.dumps(json_data)
+save_retour = save.put(data_list)
+print(save_retour)

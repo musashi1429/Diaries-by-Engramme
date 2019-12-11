@@ -6,5 +6,5 @@ class Emotion():
         self.date = date
         self.info = info
 
-    def __str__(self):
+    def __repr__(self):
          return "emotion:({}),date:({}),info({}) ".format(self.emotion,self.date,self.info)

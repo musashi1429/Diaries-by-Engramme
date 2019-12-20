@@ -1,4 +1,4 @@
-from class_emotion import Emotion
+from class_emotion import Mot_cle
 import json
 
 class Souvenir():
@@ -7,8 +7,8 @@ class Souvenir():
         self.souvenir = []
 
 
-    def set_souvenir(self,emotion):
-        self.souvenir.append(emotion)
+    def set_souvenir(self,mot_cle):
+        self.souvenir.append(mot_cle)
 
     def get_rappel(self):
         return self.souvenir

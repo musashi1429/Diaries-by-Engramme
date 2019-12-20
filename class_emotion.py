@@ -1,10 +1,10 @@
 from time import strftime
 
-class Emotion():
-    def __init__(self,emotion,date,info):
-        self.emotion = emotion
+class Mot_cle():
+    def __init__(self,mot_cle,date,info):
+        self.mot_cle = mot_cle
         self.date = date
         self.info = info
 
     def __str__(self):
-         return "emotion:({}),date:({}),info({}) ".format(self.emotion,self.date,self.info)
+         return "Hashtag:({}),date:({}),info({}) ".format(self.mot_cle,self.date,self.info)

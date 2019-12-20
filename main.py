@@ -1,5 +1,5 @@
 from souvenir import Souvenir
-from class_emotion import Emotion
+from class_emotion import Mot_cle
 import os
 from time import gmtime, strftime
 import json
@@ -8,8 +8,7 @@ import json
 souvenir = Souvenir()
 while input("Ajout d'engramme ? Oui? ---> ")== "oui":
     os.system("clear")
-    print(strftime("%a, %d %b %Y %H:%M:%S", gmtime()))
-    souvenir.set_souvenir(Emotion(input("emotion -->  choississez une emotion : Joie.Tristesse.Peur.Colère.Dégoût.Surprise. --> "),input("Date --> "),input("souvenir---> ")))
+    souvenir.set_souvenir(Mot_cle(input("Mot_cle-->  Mettre des mot cles coherent (personne,lieu,acte,emotion): --> "),input("Timellaps --> "),input("souvenir---> ")))
 else:
     liste_retour = souvenir.get_rappel()
 
@@ -19,7 +18,7 @@ else:
 liste_retour = souvenir.get_rappel()
 for element in liste_retour:
     os.system("clear")
-    print(element)
+    print(element,strftime("%a, %d %b %Y %H:%M:%S", gmtime()))
     fichier = open("save.json","a")
-    fichier.write(json.dumps([element.emotion,element.date,element.info]))
+    fichier.write(json.dumps([element.mot_cle,element.date,element.info,strftime("%a, %d %b %Y %H:%M:%S", gmtime())]))
     fichier.close()

@@ -26,9 +26,9 @@ for element in liste_retour:
     fichier.write(json.dumps([element.mot_cle,element.date,element.info,strftime("%a, %d %b %Y %H:%M:%S", gmtime())]))
     fichier.close()
 ###
-save = Engramme()
-with open("save.json","r") as json_data:
-    print(type(json_data))
-    data_list = json.dumps(json_data)
-save_retour = save.put(data_list)
-print(save_retour)
+# save = Engramme()
+# with open("save.json","r") as json_data:
+#     print(type(json_data))
+#     data_list = json.dumps(json_data)
+# save_retour = save.put(data_list)
+# print(save_retour)

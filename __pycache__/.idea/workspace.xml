@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8100dcb3-40e8-4df2-bdf1-c61f2a9f3d3c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1VGdMTv52MZbNJTp1umpCRRktHl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="__pycache__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
+      <module name="__pycache__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="__pycache__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="__pycache__" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8100dcb3-40e8-4df2-bdf1-c61f2a9f3d3c" name="Default Changelist" comment="" />
+      <created>1576883317780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576883317780</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1576883469065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576883469065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576883869699">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1576883869699" />
+    <state x="456" y="228" width="510" height="337" key="#com.intellij.tools.ToolEditorDialog" timestamp="1576883841991">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="456" y="228" width="510" height="337" key="#com.intellij.tools.ToolEditorDialog/67.27.1299.741@67.27.1299.741" timestamp="1576883841991" />
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1576883468347">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1576883468347" />
+    <state x="453" y="161" width="515" height="472" key="EnvironmentVariablesDialog" timestamp="1576883757839">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="453" y="161" width="515" height="472" key="EnvironmentVariablesDialog/67.27.1299.741@67.27.1299.741" timestamp="1576883757839" />
+    <state width="1256" height="202" key="GridCell.Tab.0.bottom" timestamp="1576883904843">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1256" height="202" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1576883904843" />
+    <state width="1256" height="202" key="GridCell.Tab.0.center" timestamp="1576883904838">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1256" height="202" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1576883904838" />
+    <state width="1256" height="202" key="GridCell.Tab.0.left" timestamp="1576883904836">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1256" height="202" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1576883904836" />
+    <state width="1256" height="202" key="GridCell.Tab.0.right" timestamp="1576883904839">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1256" height="202" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1576883904839" />
+    <state x="597" y="135" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1576883845474">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="597" y="135" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/67.27.1299.741@67.27.1299.741" timestamp="1576883845474" />
+  </component>
+</project>

@@ -11,7 +11,8 @@ from json import dumps
 souvenir = Souvenir()
 while input("Ajout d'engramme ? Oui? ---> ")== "oui":
     os.system("clear")
-    souvenir.set_souvenir(Mot_cle(input("Mot_cle-->  Mettre des mot cles coherent (personne,lieu,acte,emotion): --> "),input("Timellaps --> "),input("souvenir---> ")))
+    souvenir.set_souvenir(Mot_cle(input("Mot_cle-->  Mettre des mot cles coherent (personne,lieu,acte,emotion): --> "),input("Timellaps --> "),input("Synopsis---> ")))
+    souvenir.set_engramme("info")
 else:
     liste_retour = souvenir.get_rappel()
 
@@ -19,11 +20,12 @@ else:
 
 
 liste_retour = souvenir.get_rappel()
+engramme = souvenir.get_engramme()
 for element in liste_retour:
     os.system("clear")
-    print(element,strftime("%a, %d %b %Y %H:%M:%S", gmtime()))
+    print(element,engramme,strftime("%a, %d %b %Y %H:%M:%S", gmtime()))
     fichier = open("save.json","a")
-    fichier.write(json.dumps([element.mot_cle,element.date,element.info,strftime("%a, %d %b %Y %H:%M:%S", gmtime())]))
+    fichier.write(json.dumps([element.mot_cle,element.date,element.info,engramme,strftime("%a, %d %b %Y %H:%M:%S", gmtime())]))
     fichier.close()
 ###
 # save = Engramme()
